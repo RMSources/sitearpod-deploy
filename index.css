@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+}
+
+h1{
+    color: bisque;
+}
+
+h2{
+    color: bisque;
+}
+
+header h1 {
+    font-size: 20px; /* Tamanho da fonte para h1 */
+}
+
+header h2 {
+    font-size: 20px; /* Tamanho da fonte para h2 */
+}
+
+h3{
+   color: black;
+}
+
+footer{
+    color: white;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinhar o conteúdo no topo */
+    height: 100vh; /* 100% da altura da janela de visualização */
+}
+
+figure {
+    text-align: center; /* Centralizar a imagem */
+}
+
+.imagem-centralizada {
+    width: 50px; /* Definir a largura da imagem */
+    height: 50px; /* Definir a altura da imagem */
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly; /* Espaçamento uniforme entre os elementos */
+    align-items: center;
+    padding: var(--espacamento-texto); /* Utilizando a variável CSS para o espaçamento */
+}
+
+:root {
+    --espacamento-texto: 50px; /* Espaçamento menor entre os textos */
+}
+
+.search-form {
+    background-color: #ffffff; /* Cor de fundo branca */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex; /* Flex container para alinhar os itens */
+    align-items: center; /* Centralizar itens verticalmente */
+}
+
+.search-form input[type="text"] {
+    border: none; /* Remover borda padrão */
+    padding: 8px; /* Espaçamento interno */
+    flex: 1; /* Ocupar todo o espaço disponível */
+    border-radius: 3px; /* Cantos arredondados */
+}
+
+.search-form button {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none; /* Remover borda */
+    padding: 8px 16px; /* Espaçamento interno */
+    margin-left: 10px; /* Margem à esquerda para separar o botão do campo de pesquisa */
+    border-radius: 3px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+}
+
+
+h1:hover,
+h2:hover {
+    color: white;
+}
